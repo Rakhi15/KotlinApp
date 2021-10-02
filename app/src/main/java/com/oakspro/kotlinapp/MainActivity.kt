@@ -1,5 +1,6 @@
 package com.oakspro.kotlinapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
@@ -40,6 +41,10 @@ class MainActivity : AppCompatActivity() {
                     if (user_mobile.equals("7801006150")){
                         if (user_pass.equals("112233")){
                             Toast.makeText(this, "Welcome to Kotlin App", Toast.LENGTH_SHORT).show()
+                            intent= Intent(this, HomeActivity::class.java);
+                            startActivity(intent)
+                            finish()
+
                         }else{
                             errorMsg.text="Invalid Password"
                             errorMsg.visibility= View.VISIBLE
