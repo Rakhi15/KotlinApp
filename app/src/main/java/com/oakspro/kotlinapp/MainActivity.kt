@@ -59,6 +59,9 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this, "Please Enter Mobile and Password",Toast.LENGTH_SHORT).show()
                 errorMsg.text="Enter Password and Mobile"
                 errorMsg.visibility= View.VISIBLE
+
+                //comment
+
             }
 
         }
