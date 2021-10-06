@@ -14,4 +14,9 @@ class HomeActivity : AppCompatActivity() {
         intent= Intent(this, ListActivity::class.java)
         startActivity(intent)
     }
+
+    fun custom_list(view: android.view.View) {
+        intent= Intent(this, CustomlistActivity::class.java)
+        startActivity(intent)
+    }
 }
