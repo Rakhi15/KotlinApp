@@ -41,5 +41,17 @@
         android:onClick="custom_list"
         />
 
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="GridView"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@color/skyblue"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:onClick="gridview_click"
+        />
+
 
 </LinearLayout>

@@ -19,4 +19,10 @@ class HomeActivity : AppCompatActivity() {
         intent= Intent(this, CustomlistActivity::class.java)
         startActivity(intent)
     }
+
+    fun gridview_click(view: android.view.View) {
+
+        intent= Intent(this, GridActivity::class.java)
+        startActivity(intent)
+    }
 }
