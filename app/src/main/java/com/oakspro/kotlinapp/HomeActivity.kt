@@ -25,4 +25,9 @@ class HomeActivity : AppCompatActivity() {
         intent= Intent(this, GridActivity::class.java)
         startActivity(intent)
     }
+
+    fun webview_click(view: android.view.View) {
+        intent = Intent(this, WebActivity::class.java)
+        startActivity(intent)
+    }
 }
