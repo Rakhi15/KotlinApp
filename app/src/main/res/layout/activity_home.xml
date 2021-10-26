@@ -65,6 +65,18 @@
         android:onClick="webview_click"
         />
 
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Implicit Intent"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@color/teal_700"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:onClick="impl_click"
+        />
+
 
 
 

@@ -30,4 +30,9 @@ class HomeActivity : AppCompatActivity() {
         intent = Intent(this, WebActivity::class.java)
         startActivity(intent)
     }
+
+    fun impl_click(view: android.view.View) {
+        intent= Intent(this, ImplicitActivity::class.java)
+        startActivity(intent)
+    }
 }
