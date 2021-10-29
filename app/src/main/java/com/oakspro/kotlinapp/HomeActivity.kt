@@ -35,4 +35,9 @@ class HomeActivity : AppCompatActivity() {
         intent= Intent(this, ImplicitActivity::class.java)
         startActivity(intent)
     }
+
+    fun misc_click(view: android.view.View) {
+        intent= Intent(this, MiscActivity::class.java)
+        startActivity(intent)
+    }
 }

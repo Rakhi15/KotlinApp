@@ -76,6 +76,17 @@
         android:textAllCaps="false"
         android:onClick="impl_click"
         />
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Misc"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#8E24AA"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:onClick="misc_click"
+        />
 
 
 
