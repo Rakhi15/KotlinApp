@@ -40,4 +40,9 @@ class HomeActivity : AppCompatActivity() {
         intent= Intent(this, MiscActivity::class.java)
         startActivity(intent)
     }
+
+    fun audio_click(view: android.view.View) {
+        intent= Intent(this, AudioActivity::class.java)
+        startActivity(intent)
+    }
 }

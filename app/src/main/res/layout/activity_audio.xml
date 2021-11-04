@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AudioActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xtreme Audio Player"
+        android:textSize="28dp"
+        android:textColor="#D81B60"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/ncs"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No Copyright Music-Electro"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/start_tx"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/end_tx"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            />
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/start_tx"
+            android:layout_toLeftOf="@id/end_tx"
+            android:layout_marginTop="5dp"
+            android:id="@+id/seekbar"
+            />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="7dp"
+            android:background="@drawable/ic_baseline_replay_10_45"
+            android:id="@+id/replay_btn"
+            />
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="7dp"
+            android:background="@drawable/ic_baseline_pause_circle_45"
+            android:id="@+id/pause_btn"
+            />
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="7dp"
+            android:background="@drawable/ic_baseline_play_circle_45"
+            android:id="@+id/play_btn"
+            />
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="7dp"
+            android:background="@drawable/ic_baseline_forward_10_45"
+            android:id="@+id/forward_btn"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

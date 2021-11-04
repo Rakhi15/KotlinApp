@@ -88,6 +88,18 @@
         android:onClick="misc_click"
         />
 
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Audio Player"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#D81B60"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:onClick="audio_click"
+        />
+
 
 
 
